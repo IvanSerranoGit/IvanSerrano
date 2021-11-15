@@ -5,7 +5,27 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
  :root {
-   
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #767676;
+    --bs-gray-dark: #434343;
+    --bs-primary: #54B689;
+    --bs-secondary: #4f4f4f;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #c2c2c2;
+    --bs-dark: #292929;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
@@ -29,6 +49,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    color: #292929;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
   }
@@ -468,7 +489,7 @@
     font-weight: 300;
     line-height: 1.2
   }
-  
+
   @media (min-width: 1200px) {
     .display-1 {
       font-size: 5rem
@@ -3048,7 +3069,7 @@
     width: 100%;
     margin-top: .25rem;
     font-size: .875em;
-    /* color: #198754 */
+    color: #198754
   }
   
   .valid-tooltip {
@@ -3132,7 +3153,7 @@
   
   .was-validated .form-check-input:valid~.form-check-label,
   .form-check-input.is-valid~.form-check-label {
-    /* color: #198754 */
+    color: #198754
   }
   
   .form-check-inline .form-check-input~.valid-feedback {
@@ -8585,11 +8606,9 @@
   }
   
   .text-muted {
-    color: #fff !important
+    color: #767676 !important
   }
-  .text-muted-style{
-    color: #fff;
-  }
+  
   .text-black-50 {
     color: rgba(0, 0, 0, 0.5) !important
   }
@@ -8678,8 +8697,8 @@
     pointer-events: auto !important
   }
   
-  .img-round {
-    border-radius: 50% 
+  .rounded {
+    border-radius: .25rem !important
   }
   
   .rounded-0 {
@@ -12292,6 +12311,7 @@
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: #4f4f4f
   }
   
   h1,
@@ -12656,6 +12676,7 @@
   
   .main-wrapper {
     margin-left: 280px;
+    height: 100vh;
   }
   
   .main-wrapper .container-single-col {
@@ -13332,7 +13353,7 @@
     padding-left: 1rem;
     font-size: 1.125rem;
     letter-spacing: 0.15rem;
-    /* color: #54B689 */
+    color: #54B689
   }
   
   .resume-section-heading:before {
@@ -13350,6 +13371,7 @@
     font-size: 2.75rem;
     font-weight: 900;
     letter-spacing: 0.4rem;
+    color: #54B689
   }
   
   .resume-tagline {
@@ -13363,11 +13385,11 @@
   }
   
   a.resume-link {
-    text-decoration: double;
+    color: #4f4f4f
   }
   
   a.resume-link:hover {
-    color: #fff
+    color: #54B689
   }
   
   .resume-profile-image {
@@ -13634,7 +13656,8 @@
     }
   
     .main-wrapper {
-      margin-left: 0
+      margin-left: 0;
+      height: 100vh;
     }
   
     .resume-aside {
