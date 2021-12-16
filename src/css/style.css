@@ -212,8 +212,6 @@
     text-decoration: underline
   }
   
-  a:hover {
-  }
   
   a:not([href]):not([class]),
   a:not([href]):not([class]):hover {
@@ -3354,15 +3352,15 @@
   
   .btn-secondary {
     color: #fff;
-    background-color: #4f4f4f;
-    border-color: #4f4f4f
-  }
+    background-color: #ea39b8;
+    border-color: #ea39b8
+}
   
-  .btn-secondary:hover {
-    color: #fff;
-    background-color: #434343;
-    border-color: #3f3f3f
-  }
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #c7309c;
+  border-color: #bb2e93
+}
   
   .btn-check:focus+.btn-secondary,
   .btn-secondary:focus {
@@ -3994,7 +3992,6 @@
   }
   
   .btn-link:hover {
-    color: #43926e
   }
   
   .btn-link:disabled,
@@ -4342,7 +4339,9 @@
   .dropdown-menu.show {
     display: block
   }
-  
+  .header{
+    background-color: #13012c;
+  }
   .dropdown-header {
     display: block;
     padding: .5rem 1rem;
@@ -12310,13 +12309,7 @@
     font-weight: bold
   }
   
-  a {
-    color: #54B689
-  }
-  
-  a:hover {
-    color: #398562
-  }
+
   
   a.no-text-decoration {
     text-decoration: none
@@ -12575,7 +12568,6 @@
   }
   
   .header .nav-item .nav-link.active {
-    color: rgba(0, 0, 0, 0.5)
   }
   
   .header .nav-item .nav-link.active:hover {
@@ -12587,7 +12579,7 @@
   }
   
   .header .nav-item .nav-link:hover {
-    color: rgba(0, 0, 0, 0.6)
+    color: rgba(190, 187, 187, 0.9)
   }
   
   .header .nav-item .nav-link[aria-expanded="true"] {
@@ -12980,7 +12972,7 @@
   
   .project-card {
     border-radius: 0;
-    background: #fafafa;
+    background: #13012c;
     border: 1px solid rgba(0, 0, 0, 0.025);
     position: relative;
     height: 100%
@@ -13319,13 +13311,12 @@
     background: #fafafa
   }
   
-  .resume-wrapper {
-    border: 1px solid rgba(0, 0, 0, 0.025)
-  }
+  
   
   .resume-container {
-    max-width: 1140px
+    background-color: #13012c
   }
+ 
   
   .resume-section-heading {
     position: relative;
